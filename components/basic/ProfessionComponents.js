@@ -16,12 +16,15 @@ import Typography from "./typography";
 import JsComponents from "./js-components";
 import CallToAction from "../call-to-action/CallToAction";
 import HeaderComponent from "../custom/sections/headercomponent";
-
+import FeatureComponentCopy from "./featureComponentCopy";
+import PortfolioComponentCopy from "./portfolioComponentCopy";
 const ProfessionComponents = () => {
   return (
     <div>
         <HeaderComponent />
         <Cards />
+        <FeatureComponentCopy/>
+        <PortfolioComponentCopy/>
       {/* <Banner />
       <Buttons />
       <Labels />

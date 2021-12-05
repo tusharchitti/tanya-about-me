@@ -76,13 +76,13 @@ to new platform withing apay. Used sns, sqs, serverless framework.
                             <Button>Go somewhere</Button>
                         </Card>
                     </Col>
-                    <Col md="6">
+                    {/* <Col md="6">
                         <Card body className="card-shadow">
                             <CardTitle>Special Title Treatment</CardTitle>
                             <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
                             <Button>Go somewhere</Button>
                         </Card>
-                    </Col>
+                    </Col> */}
                 </Row>
             </Container>
         </div>

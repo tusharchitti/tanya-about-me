@@ -2,10 +2,6 @@
 import React from "react";
 import { CardImg, CardImgOverlay, CardTitle,CardText ,Row, Col, Container, Card, CardBody } from "reactstrap";
 import Image from "next/image";
-import img1 from "../../assets/images/features/feature13/img1.jpg";
-import img2 from "../../assets/images/features/feature13/img2.jpg";
-import img3 from "../../assets/images/features/feature13/img3.jpg";
-import img4 from "../../assets/images/features/feature13/img4.jpg";
 import img5 from "../../assets/images/features/feature30/feature-img.jpg";
 import img6 from "../../assets/images/professional/amazonPaylogo.png";
 import HeaderComponent from "../custom/sections/headercomponent";
@@ -26,7 +22,6 @@ const FeatureComponentCopy = () => {
                I have revamped the refunds flow for amaon pay gift cards.
                I have launched the throttling solution for our update management service in Azure cloud.
               </h6>
-
               <div>
 
                   </div>

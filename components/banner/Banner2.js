@@ -16,28 +16,29 @@ const Banner2 = () => {
             <h4 className="subtitle font-light">
             Senior Software Enginner with a mission to help the community
             </h4>
-            <a
+            {/* <a
               href="/professional"
               className="btn btn-info btn-rounded m-r-20 btn-md m-t-30 "
             >
               Corporate Journey
-            </a>
+            </a> */}
             {/* <Link href="/#coming">
               <a className="btn btn-md m-t-30  btn-outline-light ">
                 Mentoring Experience
               </a>
             </Link> */}
-              <a
+              {/* <a
               href="https://wrappixel.com/templates/nextkit-nextjs-free-uikit"
               className="btn btn-info btn-rounded m-r-20 btn-md m-t-30 "
             >
               Mentoring Experience
-            </a>
+            </a> */}
 
             
 
           </Col>
           <Col lg="4" md="4">
+            <br></br>
             <Image className="img-circle"  src={profile} alt="profile pic" />
           </Col>
         </Row>

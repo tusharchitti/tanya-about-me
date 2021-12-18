@@ -25,6 +25,7 @@ const AllComponents = () => {
       <PagePagination />
       <Images />
       <Breadcrumbs />
+     
       <Cards />
       <Dropdowns />
       <PageForm />

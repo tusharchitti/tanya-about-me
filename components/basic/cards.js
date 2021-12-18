@@ -21,50 +21,44 @@ const Cards = () => {
                     <Col md="6">
                    
                         <Card body className="card-shadow">
-                            <CardImg
-                            src={profile}
-                            alt="profile"
-                            className="img-circle"
-                            />
-                        {/* <CardImg
-                    width="50px"
-                    height="50px"
-                src="https://media.geeksforgeeks.org/wp-content/
-                          uploads/20210425000233/test-300x297.png"
-                    alt="GFG Logo" /> */}
+                         
                             <CardTitle><h1>JPMorgan</h1>
                             </CardTitle>
-                            <CardText>Selenium grid is a vendor product from Sauce Labs that helps run tests simultaneously 
-                                on multiple browser and os combinations. We developed rest api’s for teams to onboard users,
-                                 their projects on our platform so that they can run their tests smoothly.</CardText>
-                            <Button>Go somewhere</Button>
+                            <CardText>
+                                I was part of Nautilus in GTI. I Worked on integrating Sauce Labs(a vendor product) with our pipeline to make it easy for the customers
+                                to run integration tests for their services.
+                                Since, this product was meant to be used across JPMC and bank has its own restrictions, we 
+                                couldn't allow customers to directly onboard to the Sauce Labs.
+                                Our team wrote API's for the customers that helped them enable their url and credentials 
+                                for integration tests.
+                            </CardText>
+                            {/* <Button>Go somewhere</Button> */}
                         </Card>
                     </Col>
                     <Col md="6">
                         <Card body className="card-shadow">
                             <CardTitle><h1>Amazon</h1></CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.
+                            <CardText>
+                                I was part of the Gift Cards Team in Amazon Pay
                             <li>
                             Responsible for implementation of migration of Database for Refunds.
-The old database was monolithic and had scaling issues. Migrated the
-refund flow to use Dynamo DB to maintain the data.
+The old database had scaling issues. Migrated the
+refund flow to use Dynamo DB to maintain the data. As part of this migration, I was responsible for the LLD
+and implementing it and launching it end to end.
                                 </li>
 
-                            <li>Designed and implemented the transactions history for a user using
-
-event based processing. When a user performs transaction on ama-
-zon pay for gift card, we get events. These events need to be published
-
-to new platform withing apay. Used sns, sqs, serverless framework.
+                            <li>The events visible on the Amazon Pay transaction history page
+                                were migrated to new platform. Since I was part of gift cards team
+                                we had to migrate to this new platform. I was sole owner for this migration.
+                                I worked upon HLD, LLD, implementation and launch of the solution.
                                 </li> 
 
                                 <li>
                                 VIP Partitioning on Tier-1 service on Prod environment with live traffic.
-                                    </li>
-
+                                </li>
 
                             </CardText>
-                            <Button>Go somewhere</Button>
+                             {/* <Button>Go somewhere</Button> */}
                         </Card>
                     </Col>
                 </Row>
@@ -72,8 +66,22 @@ to new platform withing apay. Used sns, sqs, serverless framework.
                     <Col md="6">
                         <Card body className="card-shadow">
                             <CardTitle><h1>Microsoft</h1></CardTitle>
-                            <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-                            <Button>Go somewhere</Button>
+                            <CardText>
+                                I am part of the Update Management team in Azure Cloud.
+                                <li>While creating Schedule run configuration, customers used to bombard our service.
+                                    We did not have a throttling logic in place. I worked upon researching about the 
+                                    throttling solutions we can use that were present in microsoft.
+                                    I worked upon the HLD, LLD and implementing and launching the solution.
+                                </li>
+                                <li>
+                                    Our team was launching a new solution. We wanted to run some scale tests
+                                    on our service to see the traffic our service could handle.
+                                    I worked upon jmeter scripts and ran scale tests.
+                                    Also, I looked into our service code to see the changes that will help in improving
+                                    the scale.
+                                </li>
+                            </CardText>
+                             {/* <Button>Go somewhere</Button> */}
                         </Card>
                     </Col>
                     {/* <Col md="6">

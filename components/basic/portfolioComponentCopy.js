@@ -14,6 +14,9 @@ import img6 from "../../assets/images/professional/databases.jpeg";
 import img2 from "../../assets/images/professional/infrastructureAsCode.png";
 import img1 from "../../assets/images/professional/java.jpg";
 import img3 from "../../assets/images/professional/sns_sqs.jpg";
+import img7 from "../../assets/images/professional/updatemanagement.jpeg.jpg";
+import img8 from "../../assets/images/professional/appInsight.jpeg.jpg";
+import img9 from "../../assets/images/professional/resourceGraph.jpg";
 
 const PortfolioComponentCopy = () => {
   return (
@@ -22,10 +25,10 @@ const PortfolioComponentCopy = () => {
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
-              <h2 className="title">Tools and Technoligies used to build amazing features</h2>
+              <h2 className="title">Tools and Technologies used to build amazing features</h2>
               <h6 className="subtitle">
                Building scalable products is possible only after we have good knowledge of tools
-               Below are tools which i used in my day to day life 
+               Below are tools which I used in my day to day life 
               </h6>
             </Col>
           </Row>
@@ -75,6 +78,103 @@ const PortfolioComponentCopy = () => {
                   <h5 className="font-medium m-b-0">SNS-SQS(Pub Sub)</h5>
                   <p className="m-b-0 font-14">In Distributed system to increase relaibility we add pub/Sub. 
                   Used SNS/sqs for that</p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img4}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">AWS Lambda</h5>
+                  <p className="m-b-0 font-14">Used Lambda as a compute resource.
+                  It was a hard call between a lambda , EC2 and Amazon internal compute platforms</p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img5}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">Cloud Watch Metrics</h5>
+                  <p className="m-b-0 font-14">Whata a service without metrics,
+                   Set up complete instrumentation for our services</p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img7}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">Update Management</h5>
+                  <p className="m-b-0 font-14">Working as part of this team and developing interesting features</p>
+                </CardBody>
+              </Card>
+            </Col>
+          </Row>
+          
+          <Row className="m-t-40">
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img8}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">
+                    App Insight
+                  </h5>
+                  <p className="m-b-0 font-14">Get insights about your service</p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img2}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">Infrastrucrue as Code</h5>
+                  <p className="m-b-0 font-14">Used TypeScript to write infra as code</p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img9}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">Resource Graph</h5>
+                  <p className="m-b-0 font-14"> Database to store and query at scale.</p>
                 </CardBody>
               </Card>
             </Col>

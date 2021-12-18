@@ -23,7 +23,7 @@ const ProfessionComponents = () => {
     <div>
         <HeaderComponent />
         <Cards />
-        <FeatureComponentCopy/>
+        
         <PortfolioComponentCopy/>
       {/* <Banner />
       <Buttons />

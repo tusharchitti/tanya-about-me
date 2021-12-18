@@ -20,7 +20,7 @@ import CallToAction from "../../components/call-to-action/CallToAction";
 const CustomComponents = () => {
   return (
     <div>
-      {/* <HeaderComponent /> */}
+       <HeaderComponent />
       <Banner2 />
       {/* <BannerComponent />
       <FormBannerComponent />
